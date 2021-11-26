@@ -9,5 +9,8 @@
     "gulp-autoprefixer": "^3.1.0",
     "gulp-plumber": "^1.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }

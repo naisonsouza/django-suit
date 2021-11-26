@@ -45,10 +45,19 @@ $alert-info-text: $state-info-text;
 $alert-warning-text: $state-warning-text;
 $alert-danger-text: $state-danger-text;
 
+// Tables
+// --------------------------------------------------
+$table-th-padding: .7rem .8rem;
+$table-th-padding: .7rem .8rem;
+$table-cell-padding: .4rem .8rem;
+$table-sm-cell-padding: .3rem;
+$table-bg-accent: darken(#fff, 1%);
+$table-striped-bg: rgba(0, 0, 0, 0.01);
+
 // Import Bootstrap functions
-@import "../../bower_components/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/functions";
 // Import all Bootstrap variables
-@import "../../bower_components/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables";
 
 
 // Typography
@@ -62,7 +71,7 @@ $font-size-h6: 1rem;
 $font-size-sm: .929rem;
 $font-size-xs: .857rem;
 
-$font-size-root: 13px;
+$font-size-root: 14px;
 //$font-size-base: 14px;
 $font-family-sans-serif: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family-base: $font-family-sans-serif;
@@ -104,14 +113,6 @@ $custom-select-sm-padding-y: $btn-padding-x-sm;
 $custom-select-sm-font-size: $font-size-xs;
 
 $input-padding-y: $input-btn-padding-y !default;
-
-// Tables
-// --------------------------------------------------
-$table-th-padding: .7rem .8rem;
-$table-th-padding: .7rem .8rem;
-$table-cell-padding: .4rem .8rem;
-$table-sm-cell-padding: .3rem;
-$table-bg-accent: darken(#fff, 3%);
 
 // Forms
 // --------------------------------------------------

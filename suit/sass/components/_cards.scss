@@ -1,6 +1,6 @@
 .card {
   @include suit-box-shadow();
-  border: none;
+  
   .card-header {
     color: $card-cap-color;
   }

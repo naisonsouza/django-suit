@@ -18,7 +18,6 @@ fieldset {
     }
   }
   select:not([multiple="multiple"]) {
-    @extend .custom-select;
     border-radius: $input-border-radius;
   }
   input {

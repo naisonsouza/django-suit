@@ -16,7 +16,8 @@
     <h1 id="site-name">
         <a href="{% url 'admin:index' %}">
             {{ site_header|default:_('Django administration') }}
-            <span class="header-label">{% trans 'Admin' %}</span></a>
+            <span class="header-label">{% trans 'Admin' %}</span>
+        </a>
     </h1>
 {% endblock %}
 
@@ -144,9 +145,6 @@
                 });
             {% endif %}
 
-{#            {% if 'layout'|suit_conf:request.current_app == 'vertical' %}#}
-{#                Suit.$('#content').prepend(Suit.$('.breadcrumbs'));#}
-{#            {% endif %}#}
         </script>
     {% endif %}
 

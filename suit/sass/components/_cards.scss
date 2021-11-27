@@ -1,7 +1,24 @@
 .card {
-  @include suit-box-shadow();
-  
-  .card-header {
-    color: $card-cap-color;
-  }
+    box-shadow: 0 0 1rem 0 rgba(136, 152, 170, 015);
+    border-radius: 0.375rem;
+
+    .card-header {
+        background-color: #FFFFFF;
+        border-radius: calc(0.375rem - 1px) calc(0.375rem - 1px) 0 0;
+        padding: 1.25rem 1.5rem;
+        border-bottom: 1px solid rgba(0,0,0,.05);
+        font-size:1.4rem;
+        color: #333;
+        font-weight: 600;
+
+        h2 {
+            font-size: inherit;
+            margin-bottom: 0;
+        }
+    }
+
+    .card-body {
+        box-shadow: none;
+    }
 }
+

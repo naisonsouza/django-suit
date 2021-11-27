@@ -36,7 +36,6 @@ body.suit_form_submit_on_right .col-right {
     @include media-breakpoint-up(lg) {
       position: relative;
       padding: $grid-gutter-width-base/2;
-      background-color: $form-bg;
       display: flex;
       flex-wrap: wrap;
       @include suit-box-shadow();

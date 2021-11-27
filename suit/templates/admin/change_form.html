@@ -69,10 +69,14 @@
 
 {% block admin_change_form_document_ready %}
 
-    {# Move object-tools inside rigth column #}
-    {% block object-tools %}
-        {{ block.super }}
-    {% endblock %}
+    <div class="card">
+        <div class="card-body">
+            {# Move object-tools inside rigth column #}
+            {% block object-tools %}
+                {{ block.super }}
+            {% endblock %}
+        </div>
+    </div>
 
     <!-- Close right column and row -->
     </div>

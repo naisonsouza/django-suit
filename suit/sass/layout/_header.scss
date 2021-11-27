@@ -10,6 +10,7 @@ body.suit_layout_horizontal {
     padding-top: $header-padding-vertical;
     a {
       color: $header-color;
+      text-decoration: none;
     }
     #branding, #user-tools {
       flex-basis: map-get($grid-breakpoints, sm)/2;
